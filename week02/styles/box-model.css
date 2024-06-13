@@ -1,0 +1,41 @@
+.callout {
+    max-width: 600px; 
+    margin: 5px;
+    border: 2px solid #444;
+    padding: 5px;
+    background-color: rgba(8, 6, 70, 0.74);  
+    text-align: justify;
+    height: 400px;
+	
+}
+
+.callout img {
+float:right;
+margin: 10px;
+border: 3px solid #fff;
+padding: 0;
+background-color:none; 
+width: 200px;
+height: 200px;
+	
+}
+
+blockquote {
+    margin: 5px;
+	
+}
+
+cite {
+display: block;
+border-top: 1px dotted #fff;
+padding-top: 5px;
+padding-right: 10px;
+text-align: right;
+font-size: 20px;
+}
+
+p {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
