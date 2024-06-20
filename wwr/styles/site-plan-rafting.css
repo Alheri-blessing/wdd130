@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #47624F;
+    --secondary-color: #52AD9C;
+    --accent1-color: #9FFCDF;
+    --accent2-color: #6CC551;
+    --accent3-color: #447604;
+
+    --heading-font:"Poppins", sans-serif;
+    --paragraph-font:"Roboto", sans-serif;
+
+    --nav-background-color: #006D77;
+    --nav-link-color: #EDF6F9;
+    --nav-hover-link-color: #EDF6F9;
+    --nav-hover-background-color: #83C5BE;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: black;
+}
+ header {
+    padding: 20px;
+    background-color: var(--primary-color);
+ }
+ p {
+    padding: 25px;
+ }
+
+ nav {
+    background-color: var(--nav-background-color);
+    font-size: 20px;
+    display: flex;
+ }
+
+ nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 15px;
+ }
+
+ nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+
+ }
+
+ nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+ }
